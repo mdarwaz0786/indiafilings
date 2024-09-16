@@ -1,1 +1,1 @@
-This is React + Vite Project.
+This is MERN Stack Project.
