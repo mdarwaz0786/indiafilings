@@ -15,7 +15,7 @@ const Compliance = () => {
             <div className="col-lg-12">
               <div className="breadcrumbs">
                 <ul className="breadcrumbs__list">
-                  <li><Link to="/"> India Filings</Link></li>
+                  <li><Link to="/"></Link></li>
                   <li><Link to="#">MCA Services</Link></li>
                   <li><Link to="#">Company Compliance</Link></li>
                 </ul>

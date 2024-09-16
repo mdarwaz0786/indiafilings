@@ -15,7 +15,7 @@ const Consultation = () => {
             <div className="col-lg-12">
               <div className="breadcrumbs">
                 <ul className="breadcrumbs__list">
-                  <li><Link to="/"> India Filings</Link></li>
+                  <li><Link to="/"></Link></li>
                   <li><Link to="#">Income Tax</Link></li>
                   <li><Link to="#">Business Consultation</Link></li>
                 </ul>

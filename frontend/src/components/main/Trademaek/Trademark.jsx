@@ -15,7 +15,7 @@ const Trademark = () => {
             <div className="col-lg-12">
               <div className="breadcrumbs">
                 <ul className="breadcrumbs__list">
-                  <li><Link to="/"> India Filings</Link></li>
+                  <li><Link to="/"></Link></li>
                   <li><Link to="#">Trademark</Link></li>
                   <li><Link to="#">Trademark Registration</Link></li>
                 </ul>

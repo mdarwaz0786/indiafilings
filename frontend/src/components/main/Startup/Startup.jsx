@@ -15,7 +15,7 @@ const Startup = () => {
             <div className="col-lg-12">
               <div className="breadcrumbs">
                 <ul className="breadcrumbs__list">
-                  <li><Link to="/"> India Filings</Link></li>
+                  <li><Link to="/"></Link></li>
                   <li><Link to="#">Business Registrations</Link></li>
                   <li><Link to="#">Company Registration</Link></li>
                 </ul>
