@@ -53,14 +53,14 @@
 /* Main page style */
 .top_left {
   display: flex;
-  column-gap: 2rem;
+  column-gap: 1.5rem;
   border: 0.0625rem solid #e7e7e7;
   padding: 1rem;
 }
 
 .top_main {
   overflow-y: auto;
-  height: 80vh;
+  height: 100vh;
 }
 
 .top_main::-webkit-scrollbar {
@@ -297,12 +297,17 @@ hr {
 
   .top_main {
     overflow: hidden;
-    height: 100%;
+    height: auto;
   }
 
   .offer {
     flex-direction: column;
     row-gap: 1rem;
+  }
+
+  .offer_left,
+  .offer_right {
+    margin-bottom: 1rem;
   }
 
   .top_left .top_img {
@@ -333,14 +338,18 @@ hr {
     flex-direction: column;
   }
 
+  .top_left .top_img img {
+    width: 100%;
+  }
+
   .top_main {
     overflow: hidden;
     height: 100%;
   }
 
   .offer {
-    flex-direction: column;
-    row-gap: 1rem;
+    display: flex;
+    flex-direction: column !important;
   }
 
   .top_left .top_img {

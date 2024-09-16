@@ -116,7 +116,7 @@
     width: 100%;
     margin-bottom: 1rem;
     border-radius: 0.5rem;
-    margin-left: -1rem;
+    margin-left: -0.7rem;
   }
 
   .search-btn {
@@ -135,7 +135,7 @@
   .login-btn,
   .search-btn {
     padding: 0.375rem 1rem;
-    margin-right: -1rem;
+    margin-right: -0.7rem;
   }
 
   .header_form_mobile {
@@ -192,7 +192,7 @@
     width: 100%;
     margin-bottom: 1rem;
     border-radius: 0.5rem;
-    margin-left: -1rem;
+    margin-left: -2.5rem;
   }
 
   .search-btn {
@@ -211,7 +211,7 @@
   .login-btn,
   .search-btn {
     padding: 0.375rem 1rem;
-    margin-right: -1rem;
+    margin-right: -5rem;
   }
 
   .header_form_mobile {
