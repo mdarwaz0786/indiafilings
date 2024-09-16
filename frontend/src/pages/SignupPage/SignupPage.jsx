@@ -1,7 +1,12 @@
+import { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 const SignupPage = () => {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>

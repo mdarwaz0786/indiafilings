@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
+import { useEffect } from "react";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <section className="pt-5 pb-5 home_banner">
