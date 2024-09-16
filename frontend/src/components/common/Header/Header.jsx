@@ -35,7 +35,7 @@ const Header = () => {
               </li>
 
               <li className="nav-item navbar_item">
-                <Link className={`nav-link ${location.pathname === "/trademark" ? "active" : ""}`} style={{ color: "#484848", fontSize: "14px" }}>Trademark</Link>
+                <Link className={`nav-link ${location.pathname === "/trademark" ? "active" : ""}`} to="/trademark" style={{ color: "#484848", fontSize: "14px" }}>Trademark</Link>
               </li>
 
               <li className="nav-item navbar_item">

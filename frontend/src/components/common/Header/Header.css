@@ -92,6 +92,84 @@
 
   .custom_header {
     height: 5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  .navbar {
+    padding: 0.625rem 0;
+  }
+
+  .navbar-collapse {
+    background-color: rgb(252, 249, 249);
+    padding: 1rem;
+  }
+
+  .nav-link {
+    color: black !important;
+    padding: 0.1rem !important;
+  }
+
+  .search-input {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .search-btn {
+    border-radius: 0.5rem !important;
+    width: 3rem !important;
+    height: 2.5rem !important;
+    padding: 0rem 0.5rem !important;
+    background-color: #28a745;
+    border: none;
+  }
+
+  .nav-link {
+    padding: 0.5rem 0.625rem;
+  }
+
+  .login-btn,
+  .search-btn {
+    padding: 0.375rem 1rem;
+  }
+
+  .header_form_mobile {
+    display: flex !important;
+    width: 50% !important;
+  }
+
+  .header_form_mobile input {
+    margin-bottom: 0 !important;
+  }
+
+  .custom_header_container {
+    flex-wrap: none !important;
+  }
+
+  .header_form_none {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    height: 3rem;
+    width: 5rem;
+  }
+
+  .navbar_item {
+    display: flex;
+  }
+
+  .custom_header {
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
   }
 
   .navbar {
