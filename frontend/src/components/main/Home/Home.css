@@ -1,0 +1,182 @@
+ .home_banner .mobile_screen {
+   display: none;
+ }
+
+ .p-20 {
+   padding: 1.25rem;
+ }
+
+ .p-t-15 {
+   padding-top: 0.9375rem;
+ }
+
+ .p-t-20 {
+   padding-top: 1.25rem;
+ }
+
+ .p-t-40 {
+   padding-top: 2.5rem;
+ }
+
+ .p-t-100 {
+   padding-top: 4rem;
+ }
+
+ .p-b-15 {
+   font-size: 2rem;
+   font-weight: 500;
+   color: #212529;
+ }
+
+ .p-b-40 {
+   padding-bottom: 2.5rem;
+ }
+
+ .m-b-0 {
+   margin-bottom: 0px;
+ }
+
+ .pb-4,
+ .py-4 {
+   padding-bottom: 1.5rem;
+ }
+
+ .ex_our_ser a.service {
+   border: 1px solid #E4E6EF;
+   border-radius: 1rem;
+   background: white;
+   text-decoration: none;
+ }
+
+ .font-weight-600 {
+   font-weight: 600;
+   color: #212529;
+ }
+
+ .service p {
+   color: #212529;
+ }
+
+ .border-23 {
+   border-radius: 0.5rem;
+ }
+
+ video {
+   width: 100%;
+ }
+
+ .lead {
+   font-size: 1.3rem;
+   font-weight: 400;
+ }
+
+ .ex_our_ser h1 {
+   font-size: 2rem;
+   font-weight: 500;
+   color: #212529;
+ }
+
+ .second_se h2 {
+   font-size: 2rem !important;
+   font-weight: 500 !important;
+   color: #212529 !important;
+   padding-top: 0 !important;
+ }
+
+ .app_sec img {
+   height: 100%;
+   margin-right: 1rem;
+ }
+
+ .app_sec p {
+   font-size: 1.2rem !important;
+   font-weight: 400 !important;
+ }
+
+ .app_sec h2 {
+   font-size: 2rem !important;
+   font-weight: 500 !important;
+   color: #212529 !important;
+   padding-top: 0 !important;
+ }
+
+ @media (max-width: 767px) {
+   .home_banner .large_screen {
+     display: none;
+   }
+
+   .home_banner .mobile_screen {
+     display: flex;
+   }
+
+   .lead {
+     padding-bottom: 0.5rem !important;
+     font-size: 1.2rem !important;
+   }
+
+   .pb-5 {
+     padding-bottom: 0.5rem !important;
+   }
+
+   .pt-5 {
+     padding-top: 1rem !important;
+   }
+
+   .p-t-100 {
+     padding-top: 0rem;
+     padding-bottom: 0rem;
+   }
+
+   .p-b-15 {
+     font-size: 1.4rem;
+     font-weight: 600;
+     padding-bottom: 0rem;
+     padding-top: 1rem;
+   }
+
+   .ex_our_ser h1 {
+     font-size: 1.37rem;
+     margin-top: 0.8rem;
+     font-weight: 600;
+   }
+
+   .app_sec h2 {
+     font-size: 1.4rem !important;
+     font-weight: 600 !important;
+   }
+
+   .our_story {
+     margin-top: 1.2rem !important;
+     font-size: 1.4rem;
+     margin-top: 0.8rem;
+     font-weight: 600;
+   }
+
+   .p-t-40 {
+     padding-top: 0rem;
+     padding-bottom: 1rem;
+   }
+
+   .white-line {
+     font-size: 1.3rem;
+     margin-top: 0.8rem;
+     font-weight: 600;
+   }
+
+   .app_sec img {
+     border-radius: 0.5rem;
+   }
+
+   .img_mob_show_hide {
+     display: none !important;
+   }
+
+   .img_mob_show {
+     display: flex !important;
+     margin-bottom: 2rem !important;
+   }
+
+   .border-23 {
+     margin-top: 1rem !important;
+   }
+ }

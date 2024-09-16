@@ -1,0 +1,38 @@
+ .heading {
+   font-size: 1.5rem;
+   margin-bottom: 1rem;
+   color: black;
+ }
+
+ .links-section {
+   margin-bottom: 2rem;
+ }
+
+ .links-section a {
+   color: #007bff;
+   text-decoration: none;
+   margin-right: 0.6rem;
+ }
+
+ .links-section .heading {
+   font-size: 1.5rem !important;
+   font-weight: 600 !important;
+   color: #212529 !important;
+ }
+
+ .links-section .first_heading {
+   padding-top: 1rem;
+ }
+
+ .links-section a:hover {
+   color: blue;
+ }
+
+ @media (max-width: 767px) {
+   .links-section .heading {
+     font-size: 1.4rem !important;
+     font-weight: 600 !important;
+     color: #212529 !important;
+     margin-top: 1rem !important;
+   }
+ }
