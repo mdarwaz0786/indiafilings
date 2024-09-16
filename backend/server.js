@@ -34,7 +34,7 @@ if (cluster.isPrimary) {
   // REST API object
   const server = express();
 
-  // Middleware
+  // Middlewares
   server.use(express.json());
   server.use(compression());
   server.use(cors());
@@ -45,7 +45,7 @@ if (cluster.isPrimary) {
   // Route for serving frontend index.html file which is inside dist folder
   server.get("*", (req, res) => res.sendFile(path.join(__dirname, "/frontend/dist", "index.html")));
 
-  // Environment variable
+  // Environment variables
   const port = process.env.PORT || 8080;
   const mode = process.env.NODE_MODE;
 
