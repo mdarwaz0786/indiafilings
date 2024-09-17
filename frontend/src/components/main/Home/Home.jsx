@@ -12,9 +12,13 @@ const Home = () => {
       <section className="pt-5 pb-5 home_banner">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12">
-              <img className="img-fluid large_screen" src="https://img.indiafilings.com/catalog/IndiaFilings-Helping-Entrepreneurs.webp" alt="img" />
-              <img className="img-fluid mobile_screen" src="https://img.indiafilings.com/catalog/IndiaFilings-Mobile-banner.webp" alt="img" />
+            <div className="col-md-12">
+              <img className="img-fluid w-100 large_screen" src="https://img.indiafilings.com/catalog/IndiaFilings-Helping-Entrepreneurs.webp" alt="img" />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-12">
+              <img className="img-fluid w-100 mobile_screen" src="https://img.indiafilings.com/catalog/IndiaFilings-Mobile-banner.webp" alt="img" />
             </div>
           </div>
         </div>
