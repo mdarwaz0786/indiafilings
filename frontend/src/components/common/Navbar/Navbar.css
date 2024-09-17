@@ -74,7 +74,7 @@
    border-color: rgba(0, 0, 0, 0.1);
  }
 
- @media (max-width: 767px) {
+ @media only screen and (max-width: 767px) {
    .custom_navbar {
      display: none;
    }

@@ -28,11 +28,18 @@
    color: blue;
  }
 
- @media (max-width: 767px) {
+ @media only screen and (max-width: 767px) {
    .links-section .heading {
      font-size: 1.4rem !important;
-     font-weight: 600 !important;
-     color: #212529 !important;
+     font-weight: 500 !important;
+     margin-top: 1rem !important;
+   }
+ }
+
+ @media only screen and (min-width: 768px) and (max-width: 1024px) {
+   .links-section .heading {
+     font-size: 1.4rem !important;
+     font-weight: 500 !important;
      margin-top: 1rem !important;
    }
  }

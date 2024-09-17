@@ -212,10 +212,11 @@ hr {
 .card_form .form-check {
   display: inline;
   min-height: 0 !important;
+  padding-left: 0rem !important;
 }
 
-.card_form span {
-  font-size: 0.875rem;
+.card_form label {
+  font-size: 0.8rem;
   margin-left: 0.5rem;
 }
 
@@ -279,7 +280,7 @@ hr {
   margin: 0 !important;
   padding: 0 !important;
   margin-bottom: 0.3rem !important;
-  font-size: 13.5px !important;
+  font-size: 0.843375rem !important;
   color: #212529 !important;
 }
 

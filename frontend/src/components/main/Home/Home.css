@@ -95,7 +95,7 @@
    padding-top: 0 !important;
  }
 
- @media (max-width: 767px) {
+ @media only screen and (max-width: 767px) {
    .home_banner .large_screen {
      display: none;
    }

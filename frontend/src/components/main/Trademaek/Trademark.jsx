@@ -35,6 +35,7 @@ const Trademark = () => {
                   <div className="top_img">
                     <img className="img-fluid" src="https://img.indiafilings.com/catalog/Trademark-Registration-bank-offers-indiafilings.webp" alt="img" />
                   </div>
+
                   <div className="top_main mt-3 mt-lg-0">
                     <h4>Company Registration</h4>
                     <div className="rating">
@@ -59,28 +60,28 @@ const Trademark = () => {
                         <p className="exclusive">3 Exclusive Offers</p>
                         <p className="heading">One Person Company</p>
                         <ul className="list-unstyled list-item">
-                          <li style={{ fontSize: "13.5px" }}>
+                          <li style={{ fontSize: "0.84375rem" }}>
                             <i className="fas fa-check text-primary"></i> Instant Incorporation
                           </li>
-                          <li style={{ fontSize: "13.5px" }}>
+                          <li style={{ fontSize: "0.84375rem" }}>
                             <i className="fas fa-check text-primary"></i> Incorporation Fee
                           </li>
-                          <li style={{ fontSize: "13.5px" }}>
+                          <li style={{ fontSize: "0.84375rem" }}>
                             <i className="fas fa-check text-primary"></i> Company Incorporation
                           </li>
-                          <li style={{ fontSize: "13.5px" }}>
+                          <li style={{ fontSize: "0.84375rem" }}>
                             <i className="fas fa-check text-primary"></i> Hyper Token
                           </li>
-                          <li style={{ fontSize: "13.5px" }}>
+                          <li style={{ fontSize: "0.84375rem" }}>
                             <i className="fas fa-check text-primary"></i> DSC Support & Shipping
                           </li>
-                          <li style={{ fontSize: "13.5px" }}>
+                          <li style={{ fontSize: "0.84375rem" }}>
                             <i className="fas fa-check text-primary"></i> 1 Year LEDGERS License
                           </li>
-                          <li style={{ fontSize: "13.5px" }}>
+                          <li style={{ fontSize: "0.84375rem" }}>
                             <i className="fas fa-check text-primary"></i> Bank Account Assistance
                           </li>
-                          <li style={{ fontSize: "13.5px" }}>
+                          <li style={{ fontSize: "0.84375rem" }}>
                             <i className="fas fa-check text-primary"></i> DSC Certificate Payable
                           </li>
                         </ul>
@@ -93,28 +94,28 @@ const Trademark = () => {
                         <p className="exclusive">3 Exclusive Offers</p>
                         <p className="heading">One Person Company</p>
                         <ul className="list-unstyled list-item">
-                          <li style={{ fontSize: "13.5px" }}>
+                          <li style={{ fontSize: "0.84375rem" }}>
                             <i className="fas fa-check text-primary"></i> Instant Incorporation
                           </li>
-                          <li style={{ fontSize: "13.5px" }}>
+                          <li style={{ fontSize: "0.84375rem" }}>
                             <i className="fas fa-check text-primary"></i> Incorporation Fee
                           </li>
-                          <li style={{ fontSize: "13.5px" }}>
+                          <li style={{ fontSize: "0.84375rem" }}>
                             <i className="fas fa-check text-primary"></i> Company Incorporation
                           </li>
-                          <li style={{ fontSize: "13.5px" }}>
+                          <li style={{ fontSize: "0.84375rem" }}>
                             <i className="fas fa-check text-primary"></i> Hyper Token
                           </li>
-                          <li style={{ fontSize: "13.5px" }}>
+                          <li style={{ fontSize: "0.84375rem" }}>
                             <i className="fas fa-check text-primary"></i> DSC Support & Shipping
                           </li>
-                          <li style={{ fontSize: "13.5px" }}>
+                          <li style={{ fontSize: "0.84375rem" }}>
                             <i className="fas fa-check text-primary"></i> 1 Year LEDGERS License
                           </li>
-                          <li style={{ fontSize: "13.5px" }}>
+                          <li style={{ fontSize: "0.84375rem" }}>
                             <i className="fas fa-check text-primary"></i> Bank Account Assistance
                           </li>
-                          <li style={{ fontSize: "13.5px" }}>
+                          <li style={{ fontSize: "0.84375rem" }}>
                             <i className="fas fa-check text-primary"></i> DSC Certificate Payable
                           </li>
                         </ul>
@@ -124,21 +125,21 @@ const Trademark = () => {
                     <hr />
 
                     <div className="terms_conditions">
-                      <a href="#">Terms and conditions</a>
+                      <Link to="#">Terms and conditions</Link>
                     </div>
 
                     <hr />
 
                     <div className="offers_discounts d-flex justify-content-between">
                       <span>Offers and discounts</span>
-                      <a href="#">Refer a friend</a>
+                      <Link to="#">Refer a friend</Link>
                     </div>
 
                     <div className="gst_section">
                       <div className="invoicing d-flex mb-3">
                         <img className="img-fluid" src="https://img.indiafilings.com/catalog/ledgers_icon.png" alt="img" />
                         <div>
-                          <a href="#" style={{ textDecoration: "none", fontWeight: "600" }}>LEDGERS Invoicing Platform</a>
+                          <Link to="#" style={{ textDecoration: "none", fontWeight: "600" }}>LEDGERS Invoicing Platform</Link>
                           <p>Invoicing, GST Filing, Banking and Payroll</p>
                         </div>
                       </div>
@@ -148,9 +149,9 @@ const Trademark = () => {
                       <div className="invoicing d-flex mb-3">
                         <img className="img-fluid" src="https://img.indiafilings.com/catalog/gstn-icon.png" alt="img" />
                         <div>
-                          <a href="#" style={{ textDecoration: "none", color: "black", fontWeight: "550" }}>
+                          <Link to="#" style={{ textDecoration: "none", color: "black", fontWeight: "550" }}>
                             Save 18% with GST Registration
-                          </a>
+                          </Link>
                           <p>Get GST eInvoice with Input Tax Credit</p>
                         </div>
                       </div>
@@ -160,7 +161,7 @@ const Trademark = () => {
                       <div className="invoicing d-flex">
                         <img className="img-fluid" src="https://img.indiafilings.com/catalog/icici-icon.png" alt="img" />
                         <div>
-                          <a href="#" style={{ textDecoration: "none", fontWeight: "600" }}>Current Bank Account</a>
+                          <Link to="#" style={{ textDecoration: "none", fontWeight: "600" }}>Current Bank Account</Link>
                           <p>Zero Account Maintenance Charges for 1 Year</p>
                         </div>
                       </div>
@@ -173,21 +174,15 @@ const Trademark = () => {
               {/* Right Column */}
               <div className="col-lg-3 col-md-12 mt-4 mt-lg-0">
                 <div className="card">
-                  <img
-                    src="https://img.indiafilings.com/catalog/personalised-quotes-if.png"
-                    className="card-img-top"
-                    alt="img"
-                  />
+                  <img src="https://img.indiafilings.com/catalog/personalised-quotes-if.png" className="card-img-top" alt="img" />
                   <div className="card-body">
                     <form className="card_form">
                       <input className="form-control mb-3" type="text" placeholder="Name" />
                       <input className="form-control mb-3" type="email" placeholder="Email" />
                       <input className="form-control mb-3" type="number" placeholder="Phone" />
                       <div className="form-check">
-                        <input className="form-check-input" type="checkbox" id="gstCheckbox" />
-                        <label className="form-check-label" htmlFor="gstCheckbox">
-                          Enter GSTIN to get 18% GST Credit
-                        </label>
+                        <input type="checkbox" id="gstCheckbox" />
+                        <label htmlFor="gstCheckbox">Enter GSTIN to get 18% GST Credit</label>
                       </div>
                       <button className="btn btn-primary w-100 mt-3">Get Started</button>
                     </form>
