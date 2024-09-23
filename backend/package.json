@@ -11,8 +11,11 @@
     "start": "node app.js",
     "build": "npm install && npm install --prefix ../frontend && npm run build --prefix ../frontend"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "india",
+    "filings"
+  ],
+  "author": "Md Arwaz",
   "license": "ISC",
   "dependencies": {
     "compression": "^1.7.4",

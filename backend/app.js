@@ -25,7 +25,7 @@ server.use(express.static(path.join(__dirname, "../frontend/dist")), (req, res, 
 server.get("*", (req, res) => res.sendFile(path.join(__dirname, "../frontend/dist", "index.html")));
 
 // Environment variables
-const port = process.env.PORT || 8080;
+const port = process.env.PORT;
 const mode = process.env.NODE_MODE;
 
 // Server listen 
