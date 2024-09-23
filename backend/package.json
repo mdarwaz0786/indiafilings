@@ -2,14 +2,14 @@
   "name": "indiafilings",
   "version": "1.0.0",
   "description": "This is MERN Stack web app",
-  "main": "server.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "frontend": "npm run dev --prefix ./frontend",
-    "backend": "nodemon ./backend/server.js",
+    "frontend": "npm run dev --prefix ../frontend",
+    "backend": "nodemon app.js",
     "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
-    "start": "node ./backend/server.js",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "start": "node app.js",
+    "build": "npm install && npm install --prefix ../frontend && npm run build --prefix ../frontend"
   },
   "keywords": [],
   "author": "",
