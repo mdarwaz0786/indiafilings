@@ -1,1 +1,1 @@
-This is React + Vite project.
+This project is build using Reactjs.

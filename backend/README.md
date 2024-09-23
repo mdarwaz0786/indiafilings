@@ -1,1 +1,1 @@
-This is MERN Stack web app.
+This project is build using Nodejs/Expressjs and MongoDB project.
