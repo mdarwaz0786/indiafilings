@@ -9,7 +9,7 @@ import testRoute from "./src/routes/test.route.js";
 const __dirname = path.resolve();
 
 // Dotenv configuration
-dotenv.config();
+dotenv.config({ path: path.resolve(__dirname, "../.env") });
 
 // REST API object
 const server = express();
@@ -22,10 +22,10 @@ server.use(cors());
 // Test route
 server.use("/api/v1", testRoute);
 
-// Middleware for serving static file
+// Middleware for serving static files from the frontend's dist folder
 server.use(express.static(path.join(__dirname, "../frontend/dist")), (req, res, next) => next());
 
-// Route for serving static file
+// Route for serving the frontend's index.html for any other route
 server.get("*", (req, res) => res.sendFile(path.join(__dirname, "../frontend/dist", "index.html")));
 
 // Environment variables
