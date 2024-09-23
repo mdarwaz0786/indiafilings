@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import path from "path";
 import compression from "compression";
+import testRoute from "./src/routes/test.route.js";
 
 // Set __dirname to the current working directory
 const __dirname = path.resolve();
@@ -17,6 +18,9 @@ const server = express();
 server.use(express.json());
 server.use(compression());
 server.use(cors());
+
+// Test route
+server.use("/api/v1", testRoute);
 
 // Middleware for serving static file
 server.use(express.static(path.join(__dirname, "../frontend/dist")), (req, res, next) => next());
