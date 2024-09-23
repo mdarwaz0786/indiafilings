@@ -4,11 +4,11 @@
   "description": "This project is build using MERN stack.",
   "main": "app.js",
   "scripts": {
-    "frontend": "npm run dev --prefix frontend",
-    "backend": "nodemon backend/app.js",
+    "frontend": "npm run dev --prefix ./frontend",
+    "backend": "nodemon ./backend/app.js",
     "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
-    "start": "node backend/app.js",
-    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend && npm install --prefix backend"
+    "start": "node ./backend/app.js",
+    "build": "npm install && npm install --prefix ./frontend && npm run build --prefix ./frontend && npm install --prefix ./backend"
   },
   "keywords": [
     "india",

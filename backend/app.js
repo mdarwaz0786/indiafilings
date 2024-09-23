@@ -9,7 +9,7 @@ import testRoute from "./src/routes/test.route.js";
 const __dirname = path.resolve();
 
 // Dotenv configuration
-dotenv.config({ path: path.resolve(__dirname, "../.env") });
+dotenv.config();
 
 // REST API object
 const server = express();
