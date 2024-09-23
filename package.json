@@ -17,6 +17,7 @@
   "author": "Md Arwaz",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^9.0.1",
     "nodemon": "^3.1.7"
   }
 }
