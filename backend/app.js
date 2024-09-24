@@ -23,10 +23,10 @@ server.use(cors());
 server.use("/api/v1", testRoute);
 
 // Middleware for serving static files from the frontend's dist folder
-server.use(express.static(path.join(__dirname, "./frontend/dist")), (req, res, next) => next());
+server.use(express.static(path.join(__dirname, "../frontend/dist")), (req, res, next) => next());
 
 // Route for serving the frontend's index.html for any other route
-server.get("*", (req, res) => res.sendFile(path.join(__dirname, "./frontend/dist", "index.html")));
+server.get("*", (req, res) => res.sendFile(path.join(__dirname, "../frontend/dist", "index.html")));
 
 // Environment variables
 const port = process.env.PORT;
